@@ -14,9 +14,14 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@types/react-helmet": "^5.0.15",
     "gatsby": "^2.19.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-typescript": "^2.2.2",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.23.0",
@@ -27,9 +32,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "gatsby-plugin-typescript": "^2.2.2",
-    "typescript": "^3.8.3"
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "repository": {
     "type": "git",
