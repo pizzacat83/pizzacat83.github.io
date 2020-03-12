@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{ax7H:function(n,e,r){n.exports={spinner_mouth:"spinner-module--spinner_mouth--1MAkX",rotate:"spinner-module--rotate--2SBzv",spinner_base:"spinner-module--spinner_base--1PwHW",spinner_container:"spinner-module--spinner_container--3_5sb",spinner_outer:"spinner-module--spinner_outer--huORT"}},rMck:function(n,e,r){}}]);
-//# sourceMappingURL=styles-0a12210e033f4223bfbb.js.map
