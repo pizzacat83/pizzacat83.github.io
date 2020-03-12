@@ -1,7 +1,7 @@
-import React from 'react';
-import spinnerBase from './spinner_base.svg';
-import spinnerMouth from './spinner_mouth.svg';
-import spinnerStyle from './spinner.module.css';
+import React from "react";
+import spinnerBase from "./spinner_base.svg";
+import spinnerMouth from "./spinner_mouth.svg";
+import spinnerStyle from "./spinner.module.css";
 
 export const Spinner = ({ size }) => (
   <div className={spinnerStyle.spinner_container} style={{ height: size }}>
