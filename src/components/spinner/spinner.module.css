@@ -18,14 +18,12 @@
 
 .spinner_container {
     position: relative;
-    height: 30%;
 }
 
 .spinner_outer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
 @keyframes rotate {

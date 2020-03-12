@@ -1,13 +1,6 @@
 import React from 'react';
-import spinnerBase from '../assets/spinner_base.svg';
-import spinnerMouth from '../assets/spinner_mouth.svg';
-import spinnerStyle from '../assets/spinner.module.css';
+import { SpinnerContainer } from '../components/spinner';
 
 export default () => (
-  <div className={spinnerStyle.spinner_outer}>
-    <div className={spinnerStyle.spinner_container}>
-      <img src={spinnerMouth} alt="" className={spinnerStyle.spinner_mouth} />
-      <img src={spinnerBase} alt="spinner" className={spinnerStyle.spinner_base} />
-    </div>
-  </div>
+  <SpinnerContainer spinnerSize="30%" style={{ height: '100%' }} />
 );
