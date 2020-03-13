@@ -5,7 +5,9 @@ import spinnerStyle from "./spinner.module.css";
 
 export const Spinner = ({ size }: { size: string }) => (
   <div className={spinnerStyle.spinner_container} style={{ height: size }}>
-    <img src={spinnerMouth} alt="" className={spinnerStyle.spinner_mouth} />
+    <div className={spinnerStyle.spinner_mouth_outer}>
+      <img src={spinnerMouth} alt="" className={spinnerStyle.spinner_mouth} />
+    </div>
     <img
       src={spinnerBase}
       alt="spinner"

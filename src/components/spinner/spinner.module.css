@@ -1,9 +1,14 @@
 .spinner_mouth {
+    animation: rotate 1s cubic-bezier(0.35, 0.17, 0.43, 0.82) infinite;
+    height: 100%;
+}
+
+.spinner_mouth_outer {
     position: relative;
     top: 0px;
     left: 0px;
     z-index: 2;
-    animation: rotate 1s cubic-bezier(.16,.26,.31,.82) infinite;
+    animation: rotate 6s linear infinite;
     height: 100%;
 }
 
