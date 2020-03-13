@@ -1,5 +1,5 @@
 .mouth {
-    animation: rotate 1s cubic-bezier(0.35, 0.17, 0.43, 0.82) infinite;
+    animation: rotate 1s cubic-bezier(0.14, 0.37, 0.46, 0.78) infinite;
     height: 100%;
 }
 
@@ -10,6 +10,7 @@
     z-index: 2;
     animation: rotate 6s linear infinite;
     height: 100%;
+    width: fit-content;
 }
 
 .base {
