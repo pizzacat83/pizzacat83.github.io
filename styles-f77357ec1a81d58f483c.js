@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{BIAN:function(e,o,t){e.exports={mouth:"styles-module--mouth--2wlAW",rotate:"styles-module--rotate--3fQt3",mouth2:"styles-module--mouth2--1Fuqy",mouth_outer:"styles-module--mouth_outer--2Owh3",base:"styles-module--base--dv4c_",eyes:"styles-module--eyes--7DcT6",container:"styles-module--container--3mFwG",outer:"styles-module--outer--xMAOj"}},rMck:function(e,o,t){}}]);
+//# sourceMappingURL=styles-f77357ec1a81d58f483c.js.map
