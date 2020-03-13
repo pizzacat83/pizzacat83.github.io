@@ -1,9 +1,9 @@
-.spinner_mouth {
+.mouth {
     animation: rotate 1s cubic-bezier(0.35, 0.17, 0.43, 0.82) infinite;
     height: 100%;
 }
 
-.spinner_mouth_outer {
+.mouth_outer {
     position: relative;
     top: 0px;
     left: 0px;
@@ -12,7 +12,7 @@
     height: 100%;
 }
 
-.spinner_base {
+.base {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -21,11 +21,11 @@
     height: 100%;
 }
 
-.spinner_container {
+.container {
     position: relative;
 }
 
-.spinner_outer {
+.outer {
     display: flex;
     justify-content: center;
     align-items: center;
