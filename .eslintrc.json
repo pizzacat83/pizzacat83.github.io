@@ -21,6 +21,7 @@
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/explicit-function-return-type": "off",
         "quotes": ["warn", "double"],
-        "operator-linebreak": ["warn", "none", {"overrides": { "=": "after" } }]
+        "operator-linebreak": ["warn", "none", {"overrides": { "=": "after" } }],
+        "react/jsx-props-no-spreading": "off"
     }
 }
