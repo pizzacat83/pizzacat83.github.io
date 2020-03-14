@@ -1,46 +1,42 @@
+.base, .eyes, .mouth2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
 .mouth {
     animation: rotate 1s cubic-bezier(0.14, 0.37, 0.46, 0.78) infinite;
     height: 100%;
 }
 
 .mouth2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     animation: rotate 1s cubic-bezier(0.46, 0.22, 0.46, 0.78) infinite;
     height: 100%;
 }
 
 .mouth_outer {
-    position: relative;
-    top: 0px;
-    left: 0px;
     z-index: 2;
     animation: rotate 6s linear infinite;
-    height: 100%;
-    width: fit-content;
 }
 
 .base {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     z-index: 1;
-    animation: rotate 8s linear infinite;
     height: 100%;
 }
 
 .eyes {
-    position: absolute;
-    top: 0px;
-    left: 0px;
     z-index: 2;
-    animation: rotate 8s linear infinite;
     height: 100%;
 }
 
-.container {
+.mouth_outer, .face, .face_rotate, .container {
     position: relative;
+    height: 100%;
+    width: fit-content;
+}
+
+.face_rotate {
+    animation: rotate 8s linear infinite;
 }
 
 .outer {
