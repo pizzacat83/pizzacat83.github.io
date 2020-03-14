@@ -2,7 +2,7 @@ import React, { CSSProperties } from "react";
 import baseImg from "./base.svg";
 import eyesImg from "./eyes.svg";
 import mouthImg from "./mouth.svg";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 interface SpinnerConfig {
   size: string;

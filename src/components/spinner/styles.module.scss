@@ -1,7 +1,17 @@
-.base, .eyes, .mouth2 {
+@mixin overlay {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+@mixin rotate($period) {
+    animation: rotate $period linear infinite;
+}
+
+@mixin fittingBox {
+    position: relative;
+    height: 100%;
+    width: fit-content;
 }
 
 .mouth {
@@ -10,33 +20,40 @@
 }
 
 .mouth2 {
+    @include overlay;
     animation: rotate 1s cubic-bezier(0.46, 0.22, 0.46, 0.78) infinite;
     height: 100%;
 }
 
 .mouth_outer {
+    @include fittingBox;
+    @include rotate(6s);
     z-index: 2;
-    animation: rotate 6s linear infinite;
 }
 
 .base {
+    @include overlay;
     z-index: 1;
     height: 100%;
 }
 
 .eyes {
+    @include overlay;
     z-index: 2;
     height: 100%;
 }
 
-.mouth_outer, .face, .face_rotate, .container {
-    position: relative;
-    height: 100%;
-    width: fit-content;
+.face {
+    @include fittingBox;
 }
 
 .face_rotate {
-    animation: rotate 8s linear infinite;
+    @include fittingBox;
+    @include rotate(8s);
+}
+
+.container {
+    @include fittingBox;
 }
 
 .outer {
