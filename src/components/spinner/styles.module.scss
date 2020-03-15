@@ -27,6 +27,11 @@
 
 .mouth_outer {
     @include fittingBox;
+    z-index: 2;
+}
+
+.mouth_outer_rotate {
+    @include fittingBox;
     @include rotate(6s);
     z-index: 2;
 }
