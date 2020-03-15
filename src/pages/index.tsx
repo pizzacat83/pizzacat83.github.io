@@ -8,6 +8,6 @@ export default () => (
       <meta charSet="utf-8" />
       <title>pizzacat83</title>
     </Helmet>
-    <SpinnerContainer spinnerSize="30%" style={{ height: "100%" }} />
+    <SpinnerContainer spinnerConfig={{ size: "30%" }} style={{ height: "100%" }} />
   </div>
 );
