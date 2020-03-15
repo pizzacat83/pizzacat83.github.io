@@ -46,6 +46,7 @@
     @include overlay;
     z-index: 2;
     height: 100%;
+    animation: blink 6s linear infinite;
 }
 
 .face {
@@ -70,4 +71,13 @@
 @keyframes rotate {
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+    0%   { transform: scale(1); }
+    48%  { transform: scale(1); }
+    50%  { transform: scale(1.05, 0.3); }
+    51%  { transform: scale(1, 1.1); }
+    52%  { transform: scale(1); }
+    100% { transform: scale(1); }
 }
