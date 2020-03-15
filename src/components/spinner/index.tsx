@@ -6,13 +6,16 @@ import styles from "./styles.module.scss";
 
 interface SpinnerConfig {
   size: string;
-  rotate?: boolean;
+  rotate?: {
+    face?: boolean;
+    mouth?: boolean;
+  };
 }
 
-export const Spinner = ({ size, rotate = true }: SpinnerConfig) => (
+export const Spinner = ({ size, rotate = {} }: SpinnerConfig) => (
   <div className={styles.container} style={{ height: size }}>
-    <div className={rotate ? styles.face_rotate : styles.face}>
-      <div className={styles.mouth_outer}>
+    <div className={rotate.face ?? true ? styles.face_rotate : styles.face}>
+      <div className={rotate.mouth ?? true ? styles.mouth_outer_rotate : styles.mouth_outer}>
         <img src={mouthImg} alt="" className={styles.mouth} />
         <img src={mouthImg} alt="" className={styles.mouth2} />
       </div>
