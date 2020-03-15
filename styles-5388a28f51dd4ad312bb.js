@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{JbK4:function(e,o,t){e.exports={mouth:"styles-module--mouth--1dlBO",rotate:"styles-module--rotate--3x1ga",mouth2:"styles-module--mouth2--3KBVf",mouth_outer:"styles-module--mouth_outer--4ClmJ",base:"styles-module--base--2-57s",eyes:"styles-module--eyes---v5NT",face:"styles-module--face--2xzuk",face_rotate:"styles-module--face_rotate--wCTmm",container:"styles-module--container--QqiI0",outer:"styles-module--outer--31j1O"}},rMck:function(e,o,t){}}]);
+//# sourceMappingURL=styles-5388a28f51dd4ad312bb.js.map
