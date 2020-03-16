@@ -8,6 +8,11 @@ declare module "*.scss" {
     export default value;
 }
 
+declare module "*.inline.svg" {
+    const value: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
+    export default value;
+}
+
 declare module "*.svg" {
     const value: string;
     export default value;
